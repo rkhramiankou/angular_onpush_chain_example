@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app-onpush-example';
+
+  ngDoCheck() {
+    console.log('do check app');
+  }
 }
